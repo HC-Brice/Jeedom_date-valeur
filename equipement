@@ -1,0 +1,2 @@
+maxi : date("Y-m-d H:i:s",strtotime('now')-lastChangeStateDuration(ID,statisticsBetween(#ID#,max,today,now)))
+mini : date("Y-m-d H:i:s",strtotime('now')-lastChangeStateDuration(ID,statisticsBetween(#ID#,min,today,now)))
